@@ -1,0 +1,89 @@
+body{
+    max-width: 800px;
+    background-color: lightgray;
+}
+#name{
+    color: powderblue;
+    top: -130;
+   margin-top: -10px;
+   
+}
+#profession{
+    padding-top:-80px ;
+    margin-top: -20px;;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 190px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top:0; /* Stay at the top */
+    left: 0;
+    background-color: powderblue; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 80px;
+  }
+  .main {
+    margin-left: 210px; 
+    vertical-align: auto;
+   }
+  .sidenav a {
+    padding: 6px 2px 2px 10px;
+    margin-right: 100%;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    display: block;
+  }
+  #heading{
+      margin-left: 40px;
+      font-style: bold;
+      top:0px;
+      margin-top: -10px;
+      font-style: italic;
+
+      
+  }
+  #image{
+     float: right;
+     width: 50px;
+     height: 50;
+     position:relative;
+     top: -110px;
+     
+  }
+  #quote{
+      margin-left: 210px;
+      font-style:oblique;
+  }
+  .titles{
+      font-style: normal;
+      margin-left: 210px;
+      border-style:solid;
+      border-width: 1px;
+      border-color: powderblue;
+ 
+  }
+  ol{
+    margin-left: 210px;
+  }
+  table,th,tr,td{
+    margin-left: 210px;
+    border-style:solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: black;
+    width:50%;
+  }
+  th{
+      background-color: black;
+      color:white;
+  }
+  .rows{
+      background-color: white;
+  }
+ /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }*/
